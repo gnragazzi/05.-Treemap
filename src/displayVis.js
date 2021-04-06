@@ -97,12 +97,6 @@ const displayVis = async () => {
       const tooltip = document.getElementById('tooltip')
       tooltip.classList.remove('active')
     })
-  // .attr('fill', ({ id }) => {
-  //   const degree = educationData.find((item) => item.fips === id)[
-  //     'bachelorsOrHigher'
-  //   ]
-  //   return colorScale(degree)
-  // })
 
   svg
     .selectAll('text')
